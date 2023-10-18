@@ -1,0 +1,13 @@
+{
+    "name": "marcas/marcas_api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "tuupola/cors-middleware": "^1.4"
+    }
+}
